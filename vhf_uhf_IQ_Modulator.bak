@@ -1248,4 +1248,8 @@ Text Notes 11350 4050 0    60   ~ 0
 Check Volatge
 Text Notes 1950 1100 0    60   ~ 0
 1200pF / fc= 132KHz\n2200pF / fc=72KHz\n3300pF / fc=48KHz\n4700pF / fc=34KHz
+Text Notes 11950 4600 0    60   ~ 0
+27dBm 	500 mW (max)
+Text Notes 11950 5600 0    60   ~ 0
+27dBm 	500 mW (max)
 $EndSCHEMATC
