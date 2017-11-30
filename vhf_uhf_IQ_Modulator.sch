@@ -31,6 +31,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:RFSolutions
 LIBS:Oscillators
 LIBS:microchip_pic32mcu
 LIBS:dc-dc
@@ -1614,4 +1615,8 @@ Wire Wire Line
 	8550 5400 9150 5400
 Wire Wire Line
 	9150 5400 9150 5350
+Text Notes 12900 4300 0    60   ~ 0
+-3dBm
+Text Notes 14600 4250 0    60   ~ 0
+27dB gain
 $EndSCHEMATC
