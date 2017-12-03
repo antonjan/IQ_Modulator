@@ -1,0 +1,16 @@
+
+.PHONY: all
+all: psk31 varicode
+	@echo Done
+
+psk31: psk31.c
+	@echo '   CC   $^'
+	@gcc -O6 -Wall -o $@ $^ -lm
+
+varicode: varicode.c
+	@echo '   CC   $^'
+	@gcc -o $@ $^
+
+.PHONY: clean
+clean:
+	@rm -f psk31 varicode
