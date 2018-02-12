@@ -4,7 +4,7 @@ I2C Control for LO Local Osxelator with IQ moualtor RF amp and SAW and Ceremic o
 <b><This is not complete yet still designing ></b>
 # OBC and SDR  
 I am considering using Orange Pi rather than Raspberry as it has build in Audio in and out with a smaller footprint<br>
-I nother atvantage of the Orange pi is the additional USB ports witch I want to enable for the RTL dongle to be used as receiver.<br>
+An another advantage of the Orange Pi is the additional USB ports witch I want to enable for the RTL dongle to be used as receiver.<br>
 The software is compleet using gnuradio for transponder using hackrf for TX and rtl sdr for RX.<br>
 I am still working on the telemetry witch works on its own but i need to combine it with Gnuraio transponder.<br>
 I have to telemetry modes at the moment CW send Calsign and cubesat name and settings. APRS 1200fsk sending fukk status of transponder<br>
