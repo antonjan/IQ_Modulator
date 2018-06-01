@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
-# MCP3421A0T-E/CH-RESCUE-vhf_uhf_IQ_Modulator_simple
+# MCP3421A0T-E/CH-RESCUE-vhf_uhf_IQ_Modulator
 #
-DEF MCP3421A0T-E/CH-RESCUE-vhf_uhf_IQ_Modulator_simple U 0 40 Y Y 1 F N
+DEF MCP3421A0T-E/CH-RESCUE-vhf_uhf_IQ_Modulator U 0 40 Y Y 1 F N
 F0 "U" -400 300 50 H V L CNN
-F1 "MCP3421A0T-E/CH-RESCUE-vhf_uhf_IQ_Modulator_simple" 100 300 50 H V L CNN
+F1 "MCP3421A0T-E/CH-RESCUE-vhf_uhf_IQ_Modulator" 100 300 50 H V L CNN
 F2 "" 0 0 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST

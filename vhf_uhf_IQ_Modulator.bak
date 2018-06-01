@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:vhf_uhf_IQ_Modulator-rescue
 LIBS:power
 LIBS:device
 LIBS:switches
@@ -31,6 +32,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:RFSolutions
 LIBS:Oscillators
 LIBS:microchip_pic32mcu
 LIBS:dc-dc
@@ -2084,7 +2086,7 @@ Wire Wire Line
 Text Label 6300 7150 0    60   ~ 0
 INT
 $Comp
-L MCP3421A0T-E/CH U?
+L MCP3421A0T-E/CH-RESCUE-vhf_uhf_IQ_Modulator U?
 U 1 1 5A83B056
 P 9600 6900
 F 0 "U?" H 9200 7200 50  0000 L CNN
@@ -2095,7 +2097,7 @@ F 3 "" H 9600 6900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MCP3421A0T-E/CH U?
+L MCP3421A0T-E/CH-RESCUE-vhf_uhf_IQ_Modulator U?
 U 1 1 5A83DF17
 P 9600 8050
 F 0 "U?" H 9200 8350 50  0000 L CNN
@@ -2144,4 +2146,8 @@ Wire Wire Line
 	13200 1900 13200 2000
 Wire Wire Line
 	12850 1700 12850 2250
+Wire Wire Line
+	9750 3250 9750 4200
+Text GLabel 9750 4200 3    60   Input ~ 0
+PowerDown
 $EndSCHEMATC
