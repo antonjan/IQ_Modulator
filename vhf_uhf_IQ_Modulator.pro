@@ -1,6 +1,6 @@
-update=Tue 03 Apr 2018 11:56:46 SAST
+update=Sat 02 Jun 2018 23:45:43 SAST
 version=1
-last_client=eeschema
+last_client=kicad
 [pcbnew]
 version=1
 LastNetListRead=
@@ -75,3 +75,13 @@ LibName43=Bacar_transmitter/Bacar_Raspberry_tx-master/Raspberry_Pi_2m_TX_LPF_7St
 LibName44=Bacar_transmitter/Bacar_Raspberry_tx-master/Raspberry_Pi_2m_TX_LPF_7Stage-rescue
 LibName45=Bacar_transmitter/Bacar_Raspberry_tx-master/Raspberry_Pi_2m_TX-cache
 LibName46=/home/anton/Documents/kicad/orange-pi-master/zero/Kicad/orangepi-zero
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
