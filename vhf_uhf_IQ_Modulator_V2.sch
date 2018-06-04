@@ -73,17 +73,6 @@ F 3 "" H 13500 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L si570 U?
-U 1 1 59F8697C
-P 7350 3950
-F 0 "U?" H 6950 4350 50  0000 C CNN
-F 1 "Si570" H 7700 3550 50  0000 C CNN
-F 2 "Oscillators:Oscillator_SI570_SI571_Standard" H 6800 4550 50  0001 C CNN
-F 3 "" H 6950 4650 50  0001 C CNN
-	1    7350 3950
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR01
 U 1 1 59FF3FC0
 P 7350 4600
@@ -329,9 +318,9 @@ $Comp
 L TEST_1P J2
 U 1 1 5A135576
 P 8150 4050
-F 0 "J2" H 8150 4320 50  0000 C CNN
+F 0 "J2" H 8050 4150 50  0000 C CNN
 F 1 "TEST_1P" H 8150 4250 50  0000 C CNN
-F 2 "Inductors_SMD:L_0805_HandSoldering" H 8350 4050 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 8350 4050 50  0001 C CNN
 F 3 "" H 8350 4050 50  0001 C CNN
 	1    8150 4050
 	-1   0    0    1   
@@ -386,7 +375,7 @@ U 1 1 5A144DBC
 P 2750 4350
 F 0 "J3" H 2700 4525 50  0000 C CNN
 F 1 "Audio-Jack-3" H 2600 4600 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_KK-6410-03_03x2.54mm_Straight" H 3000 4450 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 3000 4450 50  0001 C CNN
 F 3 "" H 3000 4450 50  0001 C CNN
 	1    2750 4350
 	1    0    0    -1  
@@ -604,7 +593,7 @@ Text Notes 14300 2150 0    60   ~ 0
 Check Volatge
 Text Notes 3800 1350 0    60   ~ 0
 1200pF / fc= 132KHz\n2200pF / fc=72KHz\n3300pF / fc=48KHz\n4700pF / fc=34KHz
-Text Notes 13800 5400 0    60   ~ 0
+Text Notes 13000 5050 0    60   ~ 0
 27dBm 	500 mW (max)
 $Comp
 L GND #PWR024
@@ -741,13 +730,13 @@ $EndComp
 $Comp
 L GND #PWR034
 U 1 1 5A1D0577
-P 3300 3000
-F 0 "#PWR034" H 3300 2750 50  0001 C CNN
-F 1 "GND" H 3300 2850 50  0000 C CNN
-F 2 "" H 3300 3000 50  0001 C CNN
-F 3 "" H 3300 3000 50  0001 C CNN
-	1    3300 3000
-	-1   0    0    1   
+P 3250 3150
+F 0 "#PWR034" H 3250 2900 50  0001 C CNN
+F 1 "GND" H 3250 3000 50  0000 C CNN
+F 2 "" H 3250 3150 50  0001 C CNN
+F 3 "" H 3250 3150 50  0001 C CNN
+	1    3250 3150
+	0    1    1    0   
 $EndComp
 $Comp
 L +3.3V #PWR035
@@ -1123,9 +1112,9 @@ F 3 "" H 7400 5450 50  0001 C CNN
 	1    7400 5450
 	-1   0    0    -1  
 $EndComp
-Text GLabel 6650 3950 1    60   Input ~ 0
+Text GLabel 6650 3950 1    60   Output ~ 0
 SDA
-Text GLabel 6300 3900 0    60   Input ~ 0
+Text GLabel 6300 3900 0    60   Output ~ 0
 SLC
 $Comp
 L L L6
@@ -1236,17 +1225,6 @@ F 2 "" H 11900 5800 50  0001 C CNN
 F 3 "" H 11900 5800 50  0001 C CNN
 	1    11900 5800
 	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_01x06 J1
-U 1 1 5B1CC859
-P 3000 3350
-F 0 "J1" H 3100 3550 50  0000 C CNN
-F 1 "Conn_01x06" V 3100 3200 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_KK-6410-06_06x2.54mm_Straight" H 3000 3350 50  0001 C CNN
-F 3 "" H 3000 3350 50  0001 C CNN
-	1    3000 3350
-	-1   0    0    1   
 $EndComp
 $Comp
 L CP C13
@@ -1379,7 +1357,7 @@ U 1 1 5B1427AD
 P 6300 4950
 F 0 "J4" H 6300 5200 50  0000 C CNN
 F 1 "CONN_01X04" V 6400 4950 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_KK-6410-04_04x2.54mm_Straight" H 6300 4950 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 6300 4950 50  0001 C CNN
 F 3 "" H 6300 4950 50  0001 C CNN
 	1    6300 4950
 	1    0    0    -1  
@@ -1549,7 +1527,7 @@ F 3 "" H 9250 3750 50  0001 C CNN
 	1    9250 3750
 	1    0    0    -1  
 $EndComp
-Text GLabel 6000 4050 2    60   Input ~ 0
+Text GLabel 6000 4050 2    60   Output ~ 0
 PA06
 Text GLabel 5700 2800 0    60   Input ~ 0
 PA06
@@ -1589,8 +1567,6 @@ NoConn ~ 5700 5400
 NoConn ~ 5700 5500
 NoConn ~ 5700 5600
 NoConn ~ 5700 5700
-Text Label 6200 5900 0    60   ~ 0
-INT
 $Comp
 L C_Small C14
 U 1 1 5B15B332
@@ -1613,31 +1589,8 @@ F 3 "" H 10450 3300 50  0001 C CNN
 	1    10450 3300
 	1    0    0    -1  
 $EndComp
-$Comp
-L Si570 U3
-U 1 1 5B1752A8
-P 7350 3950
-F 0 "U3" H 6950 4350 50  0000 C CNN
-F 1 "Si570" H 7700 3550 50  0000 C CNN
-F 2 "Oscillators:Oscillator_SI570_SI571_Standard" H 6800 4550 50  0001 C CNN
-F 3 "" H 6950 4650 50  0001 C CNN
-	1    7350 3950
-	1    0    0    -1  
-$EndComp
 NoConn ~ 12750 3750
 NoConn ~ 12850 3750
-Text Label 8250 5350 0    60   ~ 0
-PDet
-Text Label 13100 3800 0    60   ~ 0
-PDet
-Text Label 6000 4400 0    60   ~ 0
-PA01
-Text Label 13300 1550 0    60   ~ 0
-PA01
-Text Label 8250 4400 0    60   ~ 0
-PA07
-Text Label 6300 4500 0    60   ~ 0
-PA07
 Wire Wire Line
 	7350 4450 7350 4600
 Wire Wire Line
@@ -1827,8 +1780,6 @@ Wire Wire Line
 Wire Wire Line
 	5700 3050 5850 3050
 Wire Wire Line
-	3200 3050 3600 3050
-Wire Wire Line
 	5700 3700 6250 3700
 Wire Wire Line
 	11600 3100 12150 3100
@@ -1932,20 +1883,6 @@ Wire Wire Line
 	11350 5700 11350 5800
 Wire Wire Line
 	11900 5700 11900 5800
-Wire Wire Line
-	3200 3550 3600 3550
-Wire Wire Line
-	3200 3450 3600 3450
-Wire Wire Line
-	3200 3350 3600 3350
-Wire Wire Line
-	3200 3250 3600 3250
-Wire Wire Line
-	3200 3150 3600 3150
-Connection ~ 3450 3050
-Wire Wire Line
-	3300 3000 3300 3150
-Connection ~ 3300 3150
 Connection ~ 11450 3000
 Wire Wire Line
 	11450 2500 11450 2550
@@ -2077,8 +2014,6 @@ Wire Wire Line
 Wire Wire Line
 	5950 4050 6000 4050
 Connection ~ 6400 2600
-Wire Wire Line
-	5700 5900 6200 5900
 Connection ~ 13800 3500
 Wire Wire Line
 	10450 2800 10450 3000
@@ -2105,13 +2040,95 @@ Connection ~ 13800 3100
 Connection ~ 13700 2900
 Connection ~ 13800 3000
 Wire Wire Line
-	13550 1550 13300 1550
-Wire Wire Line
 	12850 1250 12850 2250
-Wire Wire Line
-	8550 4400 8100 4400
 Wire Wire Line
 	5700 4500 6400 4500
 Wire Wire Line
 	9750 3250 9750 4150
+$Comp
+L Si570 U3
+U 1 1 5B1752A8
+P 7350 3950
+F 0 "U3" H 6950 4350 50  0000 C CNN
+F 1 "Si570" H 7700 3550 50  0000 C CNN
+F 2 "Oscillators:Oscillator_SI570_SI571_Standard" H 6800 4550 50  0001 C CNN
+F 3 "" H 6950 4650 50  0001 C CNN
+	1    7350 3950
+	1    0    0    -1  
+$EndComp
+Text GLabel 6250 4350 2    60   Output ~ 0
+PA01
+Wire Wire Line
+	6250 4350 6150 4350
+Wire Wire Line
+	6150 4350 6150 4400
+Text GLabel 6400 4500 2    60   Output ~ 0
+PA07
+Text GLabel 8250 4400 0    60   Input ~ 0
+PA07
+Wire Wire Line
+	8250 4400 8550 4400
+Text GLabel 8250 5350 2    60   Input ~ 0
+PDet
+Text GLabel 13500 1550 0    60   Input ~ 0
+PA01
+Wire Wire Line
+	13500 1550 13550 1550
+NoConn ~ 5700 5900
+Text GLabel 13100 3800 2    60   Output ~ 0
+PDet
+$Comp
+L CONN_01X03 J1
+U 1 1 5B178180
+P 11950 1050
+F 0 "J1" H 11950 1250 50  0000 C CNN
+F 1 "CONN_01X03" V 12050 1050 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 11950 1050 50  0001 C CNN
+F 3 "" H 11950 1050 50  0001 C CNN
+	1    11950 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR069
+U 1 1 5B1782B9
+P 11600 1150
+F 0 "#PWR069" H 11600 900 50  0001 C CNN
+F 1 "GND" H 11600 1000 50  0000 C CNN
+F 2 "" H 11600 1150 50  0001 C CNN
+F 3 "" H 11600 1150 50  0001 C CNN
+	1    11600 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR070
+U 1 1 5B17839C
+P 11600 950
+F 0 "#PWR070" H 11600 800 50  0001 C CNN
+F 1 "+5V" H 11600 1090 50  0000 C CNN
+F 2 "" H 11600 950 50  0001 C CNN
+F 3 "" H 11600 950 50  0001 C CNN
+	1    11600 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR071
+U 1 1 5B1792D7
+P 11600 1050
+F 0 "#PWR071" H 11600 900 50  0001 C CNN
+F 1 "+3.3V" H 11600 1190 50  0000 C CNN
+F 2 "" H 11600 1050 50  0001 C CNN
+F 3 "" H 11600 1050 50  0001 C CNN
+	1    11600 1050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11600 950  11750 950 
+Wire Wire Line
+	11600 1050 11750 1050
+Wire Wire Line
+	11600 1150 11750 1150
+Wire Wire Line
+	3450 3050 3600 3050
+Wire Wire Line
+	3250 3150 3600 3150
 $EndSCHEMATC
