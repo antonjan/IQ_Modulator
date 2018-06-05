@@ -1,4 +1,4 @@
-update=Mon 04 Jun 2018 21:43:41 SAST
+update=Tue 05 Jun 2018 16:33:05 SAST
 version=1
 last_client=eeschema
 [general]
@@ -68,3 +68,13 @@ LibName34=orangepi-zero
 LibName35=vhf_uhf_IQ_Modulator_V2-cache
 LibName36=MMZ09332BT1
 LibName37=vhf_uhf_IQ_Modulator-cache
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
