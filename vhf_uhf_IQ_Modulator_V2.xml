@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/anton/IQ_Modulator/vhf_uhf_IQ_Modulator_V2.sch</source>
-    <date>Mon 04 Jun 2018 22:53:50 SAST</date>
-    <tool>Eeschema 4.0.6+dfsg1-1</tool>
+    <source>/home/anton/Documents/kicad/IQ_Modulator/vhf_uhf_IQ_Modulator_V2.sch</source>
+    <date>Wed 06 Jun 2018 13:08:13 SAST</date>
+    <tool>Eeschema 4.0.7+dfsg1-1ubuntu2</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>IQ modulator 300 to 1.5Ghz</title>
@@ -29,7 +29,7 @@
     <comp ref="J5">
       <value>SMA Edge FM</value>
       <footprint>Connectors_Molex:Molex_SMA_Jack_Edge_Mount</footprint>
-      <libsource lib="vhf_uhf_IQ_Modulator_V2-cache" part="Conn_Coaxial"/>
+      <libsource lib="conn" part="Conn_Coaxial"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59F85ADB</tstamp>
     </comp>
@@ -113,7 +113,7 @@
     <comp ref="J3">
       <value>Audio-Jack-3</value>
       <footprint>Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm</footprint>
-      <libsource lib="vhf_uhf_IQ_Modulator_V2-cache" part="Audio-Jack-3"/>
+      <libsource lib="conn" part="Audio-Jack-3"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A144DBC</tstamp>
     </comp>
@@ -189,14 +189,14 @@
     </comp>
     <comp ref="RV2">
       <value>4k7</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>Potentiometer_SMD:Potentiometer_Bourns_3314G_Vertical</footprint>
       <libsource lib="device" part="POT"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A147320</tstamp>
     </comp>
     <comp ref="RV1">
       <value>4k7</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>Potentiometer_SMD:Potentiometer_Bourns_3314G_Vertical</footprint>
       <libsource lib="device" part="POT"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A1473F1</tstamp>
@@ -329,7 +329,7 @@
     </comp>
     <comp ref="U2">
       <value>MMZ09332BT1</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>QFN-12-1EP_3x3mm:QFN-12-1EP_3x3mm_P0.5mm_EP1.65x1.65mm</footprint>
       <libsource lib="vhf_uhf_IQ_Modulator_V2-cache" part="MMZ09332BT1"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A239B90</tstamp>
@@ -435,28 +435,28 @@
     <comp ref="J4">
       <value>CONN_01X04</value>
       <footprint>Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm</footprint>
-      <libsource lib="vhf_uhf_IQ_Modulator_V2-cache" part="Conn_01x04"/>
+      <libsource lib="conn" part="Conn_01x04"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B1427AD</tstamp>
     </comp>
     <comp ref="Q2">
       <value>BC817-40</value>
       <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
-      <libsource lib="transistors" part="BC817-40"/>
+      <libsource lib="vhf_uhf_IQ_Modulator_V2-cache" part="BC817-40"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B14410F</tstamp>
     </comp>
     <comp ref="Q3">
       <value>BC817-40</value>
       <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
-      <libsource lib="transistors" part="BC817-40"/>
+      <libsource lib="vhf_uhf_IQ_Modulator_V2-cache" part="BC817-40"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B144257</tstamp>
     </comp>
     <comp ref="Q1">
       <value>BC817-40</value>
       <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
-      <libsource lib="transistors" part="BC817-40"/>
+      <libsource lib="vhf_uhf_IQ_Modulator_V2-cache" part="BC817-40"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B146418</tstamp>
     </comp>
@@ -504,7 +504,7 @@
     </comp>
     <comp ref="U3">
       <value>Si570</value>
-      <footprint>Oscillators:Oscillator_SI570_SI571_Standard</footprint>
+      <footprint>Oscillators:Oscillator_SMD_SI570_SI571_HandSoldering</footprint>
       <libsource lib="vhf_uhf_IQ_Modulator_V2-cache" part="Si570"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B1752A8</tstamp>
@@ -512,13 +512,15 @@
     <comp ref="J1">
       <value>CONN_01X03</value>
       <footprint>Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm</footprint>
-      <libsource lib="conn" part="CONN_01X03"/>
+      <libsource lib="vhf_uhf_IQ_Modulator_V2-cache" part="CONN_01X03"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B178180</tstamp>
     </comp>
   </components>
   <libparts>
-    <libpart lib="vhf_uhf_IQ_Modulator_V2-cache" part="Audio-Jack-3">
+    <libpart lib="conn" part="Audio-Jack-3">
+      <description>3-pin audio jack receptable (stereo/TRS connector)</description>
+      <docs>~</docs>
       <fields>
         <field name="Reference">J</field>
         <field name="Value">Audio-Jack-3</field>
@@ -529,12 +531,10 @@
         <pin num="3" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="transistors" part="BC817-40">
+    <libpart lib="vhf_uhf_IQ_Modulator_V2-cache" part="BC817-40">
       <aliases>
         <alias>BC818-40</alias>
       </aliases>
-      <description>45V Vce, 0.8A Ic, NPN, SOT-23</description>
-      <docs>http://www.fairchildsemi.com/ds/BC/BC817.pdf</docs>
       <footprints>
         <fp>SOT-23*</fp>
       </footprints>
@@ -549,8 +549,7 @@
         <pin num="3" name="C" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="conn" part="CONN_01X03">
-      <description>Connector, single row, 01x03, pin header</description>
+    <libpart lib="vhf_uhf_IQ_Modulator_V2-cache" part="CONN_01X03">
       <footprints>
         <fp>Pin_Header_Straight_1X*</fp>
         <fp>Pin_Header_Angled_1X*</fp>
@@ -609,7 +608,9 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="vhf_uhf_IQ_Modulator_V2-cache" part="Conn_01x04">
+    <libpart lib="conn" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04</description>
+      <docs>~</docs>
       <footprints>
         <fp>Connector*:*_??x*mm*</fp>
         <fp>Connector*:*1x??x*mm*</fp>
@@ -629,7 +630,8 @@
         <pin num="4" name="Pin_4" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="vhf_uhf_IQ_Modulator_V2-cache" part="Conn_Coaxial">
+    <libpart lib="conn" part="Conn_Coaxial">
+      <description>coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)</description>
       <footprints>
         <fp>*BNC*</fp>
         <fp>*SMA*</fp>
@@ -701,7 +703,10 @@
       </pins>
     </libpart>
     <libpart lib="device" part="POT">
-      <description>Potentionmeter</description>
+      <description>Potentiometer</description>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
       <fields>
         <field name="Reference">RV</field>
         <field name="Value">POT</field>
@@ -833,20 +838,17 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="transistors">
-      <uri>/usr/share/kicad/library/transistors.lib</uri>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
     <library logical="conn">
       <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
     <library logical="orangepi-zero">
-      <uri>/home/anton/IQ_Modulator/orangepi-zero.lib</uri>
+      <uri>/home/anton/Documents/kicad/IQ_Modulator/orangepi-zero.lib</uri>
     </library>
     <library logical="vhf_uhf_IQ_Modulator_V2-cache">
-      <uri>/home/anton/IQ_Modulator/vhf_uhf_IQ_Modulator_V2-cache.lib</uri>
-    </library>
-    <library logical="device">
-      <uri>/usr/share/kicad/library/device.lib</uri>
+      <uri>/home/anton/Documents/kicad/IQ_Modulator/vhf_uhf_IQ_Modulator_V2-cache.lib</uri>
     </library>
   </libraries>
   <nets>
