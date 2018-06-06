@@ -11,8 +11,8 @@ The software concept was tested using gnuradio for transponder with a hackrf for
 I am still working on the telemetry witch works on its own but I need to combine it with Gnuraio transponder.<br>
 I have to telemetry modes at the moment CW send Calsign and cubesat name and settings. APRS 1200 FSK sending the status of transponder<br>
 # Power
-Total power usage of board still needs to be calculated but my estimation with full power is 2w including Orange pi.
-8)The sleep mode possibly 500mw<br>
+Total power usage of board still needs to be calculated but my estimation with full power is 2w including Orange pi.<br>
+Power usage in sleep mode possibly 500mw<br>
 The PCB design was done in Kicad<br>
 <br>
 # Todo
