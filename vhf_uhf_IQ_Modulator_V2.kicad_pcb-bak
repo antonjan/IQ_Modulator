@@ -456,7 +456,7 @@
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 58AA84A8) (tstamp 5B183B63)
-    (at 199.39 93.98)
+    (at 201.93 95.885)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /5A145A03)
@@ -780,7 +780,7 @@
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 58AA84A8) (tstamp 5B183C00)
-    (at 164.465 100.965)
+    (at 210.185 97.155)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /5A238059)
@@ -1068,7 +1068,7 @@
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 58AA84A8) (tstamp 5B183C8C)
-    (at 199.39 86.36)
+    (at 210.82 91.44)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /5A236655)
@@ -1176,7 +1176,7 @@
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 58AA84A8) (tstamp 5B183CBF)
-    (at 198.755 90.17)
+    (at 201.93 91.44)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /5B135DB3)
@@ -1212,7 +1212,7 @@
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 58AA84A8) (tstamp 5B183CD0)
-    (at 205.74 88.9)
+    (at 212.09 86.36)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /5B136BBE)
@@ -2092,7 +2092,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58AADA1D) (tstamp 5B183E8E)
-    (at 159.385 83.185)
+    (at 213.36 73.66)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /5A2385C4)
@@ -2200,7 +2200,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58AADA1D) (tstamp 5B183EC1)
-    (at 197.485 80.645)
+    (at 213.36 67.945)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /5B14B0D6)
@@ -2308,7 +2308,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58AADA1D) (tstamp 5B183EF4)
-    (at 158.75 100.965)
+    (at 207.645 66.04)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /5A2384AF)
