@@ -2,7 +2,7 @@
 IQ Modulator for 2M generating IQ stream via Audio PCM codec as modelation and using I2C to controle the RF local oselator for the RF mixer. The modulated RF signal is the Amplified to about +27dbm. (estimated 500mW)<br>
 I2C Control for LO Local Osxelator with IQ moualtor RF amp and SAW and Ceremic output filters to antenna.<br>
 <b><This is not complete yet still designing ></b>
-![Alt text](Balloon_comand_block_diagram.png?raw=true "Block diagram")<br>
+![Alt text](doc/IQ_Modulator_PCB_1.png?raw=true "PCB")<br>
 # OBC and SDR  
 I am considering using Orange Pi rather than Raspberry as it has build in Audio in and out with a smaller footprint<br>
 An another advantage of the Orange Pi is the additional USB ports witch I want to enable for the RTL dongle to be used as receiver.<br>
