@@ -1,4 +1,5 @@
-# IQ_Modulator for Cubesat Transmitter
+# IQ_Modulator for Cubesat Transmitter.
+![Alt text](doc/IQ_Modulator_Digram_1.png?raw=true "PCB")<br>
 IQ Modulator for 2M generating IQ stream via Audio PCM codec as modelation and using I2C to controle the RF local oselator for the RF mixer. The modulated RF signal is the Amplified to about +27dbm. (estimated 500mW)<br>
 I2C Control for LO Local Osxelator with IQ moualtor RF amp and SAW and Ceremic output filters to antenna.<br>
 <b><This is not complete yet still designing ></b>
