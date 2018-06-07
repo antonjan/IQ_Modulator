@@ -4,6 +4,8 @@ IQ Modulator for 2M generating IQ stream via Audio PCM codec as modelation and u
 I2C Control for LO Local Osxelator with IQ moualtor RF amp and SAW and Ceremic output filters to antenna.<br>
 <b><This is not complete yet still designing ></b>
 ![Alt text](doc/IQ_Modulator_PCB_1.png?raw=true "PCB")<br>
+3d View<br>
+![Alt text](doc/IQ_Modulator_3d_view_1.jpg?raw=true "PCB")<br>
 #Component list
 ![Alt text](doc/Component_list_1.png?raw=true "PCB")<br>  
 # OBC and SDR  
