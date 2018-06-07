@@ -3,7 +3,7 @@
 IQ Modulator for 2M generating IQ stream via Audio PCM codec as modelation and using I2C to controle the RF local oselator for the RF mixer. The modulated RF signal is the Amplified to about +27dbm. (estimated 500mW)<br>
 I2C Control for LO Local Osxelator with IQ moualtor RF amp and SAW and Ceremic output filters to antenna.<br>
 <b><This is not complete yet still designing ></b>
-![Alt text](doc/IQ_Modulator_PCB_1.png?raw=true "PCB")<br>
+![Alt text](doc/IQ_Modulator_PCB_placement_1.png?raw=true "PCB")<br>
 3d View<br>
 ![Alt text](doc/IQ_Modulator_3d_view_1.jpg?raw=true "PCB")<br>
 #Component list
