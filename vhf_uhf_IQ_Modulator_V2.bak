@@ -2070,10 +2070,10 @@ Wire Wire Line
 	8250 4400 8550 4400
 Text GLabel 8250 5350 2    60   Input ~ 0
 PDet
-Text GLabel 13500 1550 0    60   Input ~ 0
+Text GLabel 13350 1950 2    60   Input ~ 0
 PA01
 Wire Wire Line
-	13500 1550 13550 1550
+	13350 1550 13550 1550
 NoConn ~ 5700 5900
 Text GLabel 13100 3800 2    60   Output ~ 0
 PDet
@@ -2131,4 +2131,17 @@ Wire Wire Line
 	3450 3050 3600 3050
 Wire Wire Line
 	3250 3150 3600 3150
+$Comp
+L R R?
+U 1 1 5B1F16F5
+P 13350 1700
+F 0 "R?" V 13430 1700 50  0000 C CNN
+F 1 "4k7" V 13350 1700 50  0000 C CNN
+F 2 "" V 13280 1700 50  0001 C CNN
+F 3 "" H 13350 1700 50  0001 C CNN
+	1    13350 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13350 1850 13350 1950
 $EndSCHEMATC
