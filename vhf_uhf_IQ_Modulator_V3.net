@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source /home/anton/IQ_Modulator/vhf_uhf_IQ_Modulator_V2.sch)
-    (date "Mon 11 Jun 2018 21:49:09 SAST")
+    (source /home/anton/IQ_Modulator/vhf_uhf_IQ_Modulator_V3.sch)
+    (date "Mon 11 Jun 2018 22:00:40 SAST")
     (tool "Eeschema 4.0.6+dfsg1-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -9,7 +9,7 @@
         (company "Giga Technology")
         (rev V1.0)
         (date 2018-06-01)
-        (source vhf_uhf_IQ_Modulator_V2.sch)
+        (source vhf_uhf_IQ_Modulator_V3.sch)
         (comment (number 1) (value "This Board is a an RF transmitter board for VHF and UHF"))
         (comment (number 2) (value "2m and 70cm filter"))
         (comment (number 3) (value ""))
@@ -443,6 +443,7 @@
       (tstamp 5B178180))
     (comp (ref R17)
       (value 4k7)
+      (footprint Resistors_SMD:R_0805_HandSoldering)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 5B1F16F5)))
