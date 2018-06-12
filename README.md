@@ -34,7 +34,9 @@ My plan is to have it working by 15 July 2018.
 # Constranes 
 1) Small Board to fit all components.
 2) My Pick and Place machien can not place components smaller that 0805.  
-
+#software
+The software for this Board will be in the following repository
+https://github.com/antonjan/Balloon-Transponder  
   
 
 
