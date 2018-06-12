@@ -29,6 +29,8 @@ My plan is to have it working by 15 July 2018.
 4) CS for ic's<br>
 5) Temprature and Tx power measurementA/D. (The A/D was added using MCP3421A0T-E/CH and will read the power output of the MMZ09332BT1 30db power amp that should give us about +27dbm. This A/D reading can then be used to adjust the ALC level in the IQ stream)<br>
 6) Battery and solar Voltage Monitoring (A/D) (I had to remove this as there was no space on the PCB Board)<br>
+7) I forgot to add a 4k7 resistor to base of Q1. Fixed and is now added.
+8) Board placement redone thats why I have vertion 3 as I could not root all routes.  
 
   
 
