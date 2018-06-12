@@ -19,6 +19,9 @@ Total power usage of board still needs to be calculated but my estimation with f
 Power usage in sleep mode possibly 500mw<br>
 The PCB design was done in Kicad<br>
 <br>
+# Project Status.
+This project is not compleet yet. (Almost done 12/06/2018)  
+My plan is to have it working by 15 July 2018.
 # Todo
 1) Real time clock (done) I had to remove the Real time clock as there is not enuf space on the PCB<br>
 2) I2C pull up resistors (done)<br>
