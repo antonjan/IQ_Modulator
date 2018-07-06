@@ -1,0 +1,72 @@
+### Module positions - created on Thu Jul  5 21:37:38 2018 ###
+### Printed by Pcbnew version pcbnew 4.0.7-e2-6376~61~ubuntu18.04.1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val              Package                                        PosX       PosY       Rot  Side
+C1        1uF 16V          CP_Tantalum_Case-R_EIA-2012-12_Reflow      177.4190   -90.8050   90.0000  top
+C2        1uF 16V          CP_Tantalum_Case-R_EIA-2012-12_Reflow      176.5300   -71.1200   90.0000  top
+C3        1uF 16V          CP_Tantalum_Case-R_EIA-2012-12_Reflow      174.4980   -59.9440   90.0000  top
+C4        3.3pF            C_0805_HandSoldering                       176.7840   -83.3120  180.0000  top
+C5        10uF 16V         C_0805_HandSoldering                       156.2100   -68.5800  270.0000  top
+C6        2200pF           C_0805_HandSoldering                       161.2900   -68.5800  270.0000  top
+C7        2200pF           C_0805_HandSoldering                       154.9400   -72.2630  180.0000  top
+C8        10uF 16V         C_0805_HandSoldering                       156.2100   -63.5000   90.0000  top
+C9        1nF              C_0805_HandSoldering                       174.6250   -85.3440  180.0000  top
+C10       4.7uF 16V        C_0805_HandSoldering                       174.6250   -87.2490    0.0000  top
+C11       2200pF           C_0805_HandSoldering                       161.2900   -63.5000   90.0000  top
+C12       2200pF           C_0805_HandSoldering                       165.7350   -66.0400  270.0000  top
+C13       1uF 16V          CP_Tantalum_Case-R_EIA-2012-12_Reflow      175.5140   -74.9300  180.0000  top
+C14       1nF              C_0805_HandSoldering                       180.3400   -66.0400  270.0000  top
+C15       1uF 16V          CP_Tantalum_Case-R_EIA-2012-12_Reflow      177.8000   -66.0400   90.0000  top
+C16       100pF            C_0805_HandSoldering                       172.4660   -90.6780  270.0000  top
+C17       1uF 16V          CP_Tantalum_Case-R_EIA-2012-12_Reflow      182.4990   -74.6760    0.0000  top
+C18       27pF             C_0805_HandSoldering                       170.4340   -74.9300    0.0000  top
+C19       220pF            C_0805_HandSoldering                       170.4340   -87.2490   90.0000  top
+C20       1uF 16V          CP_Tantalum_Case-R_EIA-2012-12_Reflow      163.0680   -73.0250  180.0000  top
+C21       100pF            C_0805_HandSoldering                       168.1480   -81.7880   90.0000  top
+C22       33pF             C_0805_HandSoldering                       160.5280   -90.0430   90.0000  top
+C23       10uF 16V         C_0805_HandSoldering                       153.0350   -84.7090  270.0000  top
+C24       15pF             C_0805_HandSoldering                       175.2600   -66.0400  270.0000  top
+C25       10uF 16V         C_0805_HandSoldering                       155.4480   -84.8360  270.0000  top
+C26       220pF            C_0805_HandSoldering                       156.9720   -88.5190    0.0000  top
+C27       100nF            C_0805_HandSoldering                       187.9600   -90.8050  270.0000  top
+C28       10uF 16V         C_0805_HandSoldering                       180.3400   -90.8050   90.0000  top
+C29       33pF             C_0805_HandSoldering                       155.5750   -97.1550   90.0000  top
+C30       33pF             C_0805_HandSoldering                       163.1950   -97.1550   90.0000  top
+C31       33pF             C_0805_HandSoldering                       171.4500   -97.1550   90.0000  top
+J5        SMA Edge FM      Molex_SMA_Jack_Edge_Mount                  179.0700  -100.3300   90.0000  top
+L1        33nF             C_0805_HandSoldering                       176.7840   -81.4070  180.0000  top
+L2        33nH             L_0805_HandSoldering                       171.8310   -83.0580  180.0000  top
+L3        22nF             C_0805_HandSoldering                       173.9900   -71.1200   90.0000  top
+L4        33nH             L_0805_HandSoldering                       164.3380   -88.6460  180.0000  top
+L5        33nF             C_0805_HandSoldering                       168.1480   -87.2490   90.0000  top
+L6        56nH             L_0805_HandSoldering                       155.4480   -92.0750   90.0000  top
+L7        110nH            L_0805_HandSoldering                       159.3850   -95.8850  180.0000  top
+L8        110nH            L_0805_HandSoldering                       167.0050   -95.8850  180.0000  top
+L9        56nH             L_0805_HandSoldering                       175.8950   -95.8850  180.0000  top
+Q1        BC817-40         SOT-23                                     178.8160   -85.9790  180.0000  top
+Q2        BC817-40         SOT-23                                     183.6420   -78.9940  180.0000  top
+Q3        BC817-40         SOT-23                                     181.9910   -70.9930  270.0000  top
+R1        10k              R_0805_HandSoldering                       174.6250   -90.8050  270.0000  top
+R2        1K               R_0805_HandSoldering                       158.7500   -68.5800  270.0000  top
+R3        1K               R_0805_HandSoldering                       163.8300   -68.5800   90.0000  top
+R4        1k8              R_0805_HandSoldering                       176.7840   -79.3750    0.0000  top
+R5        1K               R_0805_HandSoldering                       158.7500   -63.5000   90.0000  top
+R6        1K               R_0805_HandSoldering                       163.8300   -63.5000  270.0000  top
+R7        6k8              R_0805_HandSoldering                       180.7210   -78.3590   90.0000  top
+R8        6k8              R_0805_HandSoldering                       187.9600   -85.7250   90.0000  top
+R9        0                R_0805_HandSoldering                       170.9420   -71.1200  270.0000  top
+R10       2k2              R_0805_HandSoldering                       176.7840   -77.3430    0.0000  top
+R11       OC               R_0805_HandSoldering                       168.6560   -71.1200  270.0000  top
+R12       0                R_0805_HandSoldering                       166.4970   -71.1200  270.0000  top
+R13       10k              R_0805_HandSoldering                       182.8800   -66.0400  270.0000  top
+R14       6k8              R_0805_HandSoldering                       186.5630   -70.2310  180.0000  top
+R15       6k5              R_0805_HandSoldering                       184.2770   -91.6940    0.0000  top
+R16       6k5              R_0805_HandSoldering                       182.7530   -82.2960    0.0000  top
+R17       4k7              R_0805_HandSoldering                       184.2770   -93.7260    0.0000  top
+RV1       4k7              Potentiometer_Bourns_3314G_Vertical        180.0860   -60.0710  270.0000  top
+RV2       4k7              Potentiometer_Bourns_3314G_Vertical        168.7830   -60.1980  270.0000  top
+U2        MMZ09332BT1      QFN-12-1EP_3x3mm_P0.5mm_EP1.65x1.65mm      171.7040   -78.6130  270.0000  top
+U3        Si570            Oscillator_SMD_SI570_SI571_HandSoldering   162.0520   -79.6290    0.0000  top
+U5        MCP3421A0T-E/CH  SOT-23-6_Handsoldering                     183.5150   -87.6300   90.0000  top
+## End
