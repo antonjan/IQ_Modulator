@@ -87,7 +87,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory Component_position__file))
+      (outputdirectory IQ_Modulator_gerber_files/))
   )
 
   (net 0 "")
@@ -3201,7 +3201,7 @@
   (segment (start 174.269 61.348) (end 174.498 61.119) (width 0.25) (layer F.Cu) (net 1) (tstamp 5B3E3D0D))
   (segment (start 182.836 61.221) (end 182.836 64.646) (width 0.25) (layer F.Cu) (net 1))
   (segment (start 182.836 64.646) (end 182.88 64.69) (width 0.25) (layer F.Cu) (net 1) (tstamp 5B3E3CFA))
-  (segment (start 168.148 83.038) (end 168.148 84.5185) (width 0.3) (layer F.Cu) (net 2) (status 400000))
+  (segment (start 168.148 83.038) (end 168.148 84.5185) (width 0.3) (layer F.Cu) (net 2))
   (via (at 169.3545 84.5185) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 2))
   (segment (start 168.148 84.5185) (end 169.3545 84.5185) (width 0.3) (layer F.Cu) (net 2) (tstamp 5B61A318))
   (segment (start 187.325 73.66) (end 187.325 71.9455) (width 0.3) (layer B.Cu) (net 2))
