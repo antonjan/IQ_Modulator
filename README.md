@@ -22,6 +22,8 @@ The PCB design was done in Kicad<br>
 # Project Status.
 This project is not compleet yet. (Almost done 12/06/2018)  
 My plan is to have it working by 15 July 2018.
+The board V3 has the wrong pin configuration for U2 trf3701
+I am now working on V4 ans need to get it working by 9 August 2018 for the BACAR6 baloon project.
 # Todo
 1) Real time clock (done) I had to remove the Real time clock as there is not enuf space on the PCB<br>
 2) I2C pull up resistors (done)<br>
